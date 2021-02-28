@@ -58,4 +58,4 @@ ISC
 
 [Node.js]: <https://www.npmjs.com/get-npm>
 
-[docker] : <https://docs.docker.com/docker-for-windows/install/>
+[docker]: <https://docs.docker.com/docker-for-windows/install/>
