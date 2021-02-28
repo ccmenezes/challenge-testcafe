@@ -43,6 +43,11 @@ To perform the tests using testcafe type the comand below:
 - The regression tests
 `$ npm run regression`
 
+Once executed by the command line you can open the report.
+
+`npm run report-allure-open`
+
+To close it press _Ctrl + C_ at the terminal.
 
 
 #### License
