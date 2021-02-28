@@ -36,8 +36,8 @@ To perform the tests using testcafe type the comand below:
 >You can perform the test using the command line or execute all regression >tests.
 
 - Unique test class
-`$ npm testcafe <class_name.extention>`
-`$ npm testcafe test.spec.ts`
+`$ npm testcafe <path + class_name.extention>`
+`$ testcafe chrome tests/specs/**/newsletter.spec.ts`
 
 
 - The regression tests
