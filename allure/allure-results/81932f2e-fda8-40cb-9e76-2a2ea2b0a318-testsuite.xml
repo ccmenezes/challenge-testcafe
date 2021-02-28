@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614540058792' stop='1614540058793'>
+    <name>Newslatter</name>
+    <title>Newslatter</title>
+    <test-cases>
+        <test-case start='1614540058792' status='passed' stop='1614540066601'>
+            <name>REG-011_001 | Fail to enroll in the newsletter</name>
+            <title>REG-011_001 | Fail to enroll in the newsletter</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 88.0.4324.150 / Linux 0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been passed.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

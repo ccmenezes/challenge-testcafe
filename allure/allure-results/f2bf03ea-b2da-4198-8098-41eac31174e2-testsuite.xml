@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614540076399' stop='1614540076416'>
+    <name>Newslatter</name>
+    <title>Newslatter</title>
+    <test-cases>
+        <test-case start='1614540076399' status='failed' stop='1614540093998'>
+            <name>REG-011_002 | Successfully enroll in the newsletter</name>
+            <title>REG-011_002 | Successfully enroll in the newsletter</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 88.0.4324.150 / Linux 0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been broken</message>
+                <stack-trace>Cannot obtain information about the node because the specified selector does not match any node in the DOM tree.
+                
+                 > | Selector('p.alert.alert-danger')
+                
+                Browser: Chrome 88.0.4324.150 / Linux 0.0
+                
+                   21 |
+                   22 |    let email = faker.internet.email().toLowerCase(); 
+                   23 |
+                   24 |    await page.typeText(page.newslatter.newslatterInput, email);
+                   25 |    await page.clickButton(page.newslatter.newslatterButton);
+                 > 26 |    await t.expect(page.alertMessage.alertDanger.innerText).contains(message.registeredEmailMessage);
+                   27 |
+                   28 |});
+                
+                   at &lt;anonymous> (/home/claudia/Documents/challenge-testcafe/tests/specs/newsletter.spec.ts:26:61)
+                   at fulfilled (/home/claudia/Documents/challenge-testcafe/tests/specs/newsletter.spec.ts:5:58)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
