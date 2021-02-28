@@ -3,9 +3,9 @@
 
 [![|Tested with TestCafe](https://img.shields.io/badge/tested%20with-TestCafe-2fa4cf.svg)](https://github.com/DevExpress/testcafe)
 
-### Getting Started
+## Getting Started
 
-#### Installation
+## Installation
 
 Ensure that GIT is already installed, if it's not, please download and install [git](https://git-scm.com/downloads) .
 
@@ -13,7 +13,7 @@ It also requires [Node.js](https://www.npmjs.com/get-npm) .
 
 Download the project, in the command line:
 
-##### Project
+## Project
 Now you're ready to clone the project.
 
 `$ git clone https://github.com/ccmenezes/challenge-testcafe.git`
@@ -24,7 +24,7 @@ After you should execute the command below to install all project dependencies.
 
 `$ npm install -g testcafe`
 
-##### Docker 
+## Docker 
 It' a docker project, so it's important to install docker in your machine. Follow the orientatons at [docker](https://docs.docker.com/docker-for-windows/install/) .
 
 Download the [testcafe](https://devexpress.github.io/testcafe/documentation/guides/advanced-guides/use-testcafe-docker-image.html) container.
